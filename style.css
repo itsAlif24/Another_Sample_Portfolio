@@ -1,0 +1,166 @@
+/* Background */
+body{
+    background-image: url('image/Background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* Logo */
+#logo{
+    height: 15%;
+    width: 15%;
+    padding: 2vw;
+}
+
+/* sidebar Navigation */
+.sidebar{
+    float: left;
+    width: 40%;
+}
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: inherit;
+}
+
+.navbar>li{
+    padding: 1vw;
+    list-style: none;
+}
+
+.navbar>li>a{
+    text-align: left; 
+    text-decoration: none;
+    color: #2294c2;
+}
+
+/* Personal Pic */
+#me{
+    float: right;
+    overflow: hidden;
+    height: 400px;
+    width: 300px;
+    margin: none;
+}
+
+/* About Me */
+.myself{
+    color: #000000;
+    font-size: 40px;
+}
+.headline{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2294c2;
+}
+
+.aboutme{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2294c2;
+    padding: 10%;
+}
+
+/* Hire Me Button */
+.hire_button{
+    padding: 10px;
+    border: none;
+    background-color: #2294c2;
+}
+
+.hire_name{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/* Resume Button & All */
+.resume_button{
+    padding: 10px;
+    border: none;
+    background-color: #2294c2;
+    align-items: center;
+}
+
+.resume_name{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+/* Skill Details */
+.header_skill{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2294c2;
+}
+.skill{
+    padding: 5%;
+}
+
+.nolist_skill{
+    list-style: none;
+}
+
+.nolist_skill>li{
+    text-size-adjust: 20px;
+    display: inline-block;
+    padding: 30px;
+}
+
+.nolist_skill>li>a{
+    color: #000000;
+}
+
+/* Portfolio */
+.header_portfolio{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2294c2;  
+}
+
+#project{
+    height: 70%;
+    width: 80%;
+    padding: 2% 10%;
+    
+}
+
+iframe{
+    padding: 2% 10%;
+    height: 80%;
+    width: 80%;
+
+}
+
+/* Contact Me Details */
+.header_contact_me{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #2294c2; 
+}
+
+.contact_me{
+    padding: 5%;
+}
+
+.contact_me_list{
+    list-style: none;
+}
+
+.contact_me_list>li{
+    text-size-adjust: 20px;
+    display: inline-block;
+    padding: 30px;
+}
+
+.contact_me_list>li>a{
+    color: #000000;
+}
+
+/* Footer */
+.footer{
+    background-color: black;
+    color: whitesmoke;
+    padding: 2vw;
+    text-align: center;
+}
